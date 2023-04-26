@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2064E7EE29F957B800B261EC /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2064E7ED29F957B800B261EC /* App.swift */; };
+		2064E7F029F957B800B261EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2064E7EF29F957B800B261EC /* ContentView.swift */; };
+		2064E7F229F957BB00B261EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2064E7F129F957BB00B261EC /* Assets.xcassets */; };
+		2064E7F529F957BB00B261EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2064E7F429F957BB00B261EC /* Preview Assets.xcassets */; };
+		2064E80029F957BB00B261EC /* FunctionInterpolationCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2064E7FF29F957BB00B261EC /* FunctionInterpolationCalculatorTests.swift */; };
+		2064E80A29F957BB00B261EC /* FunctionInterpolationCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2064E80929F957BB00B261EC /* FunctionInterpolationCalculatorUITests.swift */; };
+		2064E81C29F9587300B261EC /* Linspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2064E81B29F9587300B261EC /* Linspace.swift */; };
+		206E6C5929F96ACB00C7B3AB /* DataInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E6C5829F96ACB00C7B3AB /* DataInputView.swift */; };
+		206E6C5C29F96B0500C7B3AB /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E6C5B29F96B0500C7B3AB /* Point.swift */; };
+		206E6C5E29F96D6800C7B3AB /* SelfIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E6C5D29F96D6800C7B3AB /* SelfIdentifiable.swift */; };
+		206E6C6029F9746B00C7B3AB /* KeyboardDataInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E6C5F29F9746B00C7B3AB /* KeyboardDataInputView.swift */; };
+		206E6C6229F97D9000C7B3AB /* FileDataInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E6C6129F97D9000C7B3AB /* FileDataInputView.swift */; };
+		206E6C6529F97E2E00C7B3AB /* CodableCSV in Frameworks */ = {isa = PBXBuildFile; productRef = 206E6C6429F97E2E00C7B3AB /* CodableCSV */; };
+		206E6C6729F97F9E00C7B3AB /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E6C6629F97F9E00C7B3AB /* Function.swift */; };
+		206E6C6929F980B100C7B3AB /* FunctionDataInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E6C6829F980B100C7B3AB /* FunctionDataInputView.swift */; };
+		206E6C6C29F985BB00C7B3AB /* Sequence+Unique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E6C6B29F985BB00C7B3AB /* Sequence+Unique.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2064E7FC29F957BB00B261EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2064E7E229F957B800B261EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2064E7E929F957B800B261EC;
+			remoteInfo = FunctionInterpolationCalculator;
+		};
+		2064E80629F957BB00B261EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2064E7E229F957B800B261EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2064E7E929F957B800B261EC;
+			remoteInfo = FunctionInterpolationCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2064E7EA29F957B800B261EC /* FunctionInterpolationCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionInterpolationCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2064E7ED29F957B800B261EC /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		2064E7EF29F957B800B261EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2064E7F129F957BB00B261EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2064E7F429F957BB00B261EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2064E7F629F957BB00B261EC /* FunctionInterpolationCalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FunctionInterpolationCalculator.entitlements; sourceTree = "<group>"; };
+		2064E7FB29F957BB00B261EC /* FunctionInterpolationCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionInterpolationCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2064E7FF29F957BB00B261EC /* FunctionInterpolationCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionInterpolationCalculatorTests.swift; sourceTree = "<group>"; };
+		2064E80529F957BB00B261EC /* FunctionInterpolationCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionInterpolationCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2064E80929F957BB00B261EC /* FunctionInterpolationCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionInterpolationCalculatorUITests.swift; sourceTree = "<group>"; };
+		2064E81B29F9587300B261EC /* Linspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linspace.swift; sourceTree = "<group>"; };
+		206E6C5829F96ACB00C7B3AB /* DataInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInputView.swift; sourceTree = "<group>"; };
+		206E6C5B29F96B0500C7B3AB /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		206E6C5D29F96D6800C7B3AB /* SelfIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIdentifiable.swift; sourceTree = "<group>"; };
+		206E6C5F29F9746B00C7B3AB /* KeyboardDataInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardDataInputView.swift; sourceTree = "<group>"; };
+		206E6C6129F97D9000C7B3AB /* FileDataInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDataInputView.swift; sourceTree = "<group>"; };
+		206E6C6629F97F9E00C7B3AB /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
+		206E6C6829F980B100C7B3AB /* FunctionDataInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionDataInputView.swift; sourceTree = "<group>"; };
+		206E6C6B29F985BB00C7B3AB /* Sequence+Unique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Unique.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2064E7E729F957B800B261EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206E6C6529F97E2E00C7B3AB /* CodableCSV in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2064E7F829F957BB00B261EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2064E80229F957BB00B261EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2064E7E129F957B800B261EC = {
+			isa = PBXGroup;
+			children = (
+				2064E7EC29F957B800B261EC /* FunctionInterpolationCalculator */,
+				2064E7FE29F957BB00B261EC /* FunctionInterpolationCalculatorTests */,
+				2064E80829F957BB00B261EC /* FunctionInterpolationCalculatorUITests */,
+				2064E7EB29F957B800B261EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2064E7EB29F957B800B261EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2064E7EA29F957B800B261EC /* FunctionInterpolationCalculator.app */,
+				2064E7FB29F957BB00B261EC /* FunctionInterpolationCalculatorTests.xctest */,
+				2064E80529F957BB00B261EC /* FunctionInterpolationCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2064E7EC29F957B800B261EC /* FunctionInterpolationCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				2064E81A29F9584F00B261EC /* Utils */,
+				2064E81929F9584200B261EC /* Core */,
+				2064E81829F957FC00B261EC /* Presentation */,
+				2064E7ED29F957B800B261EC /* App.swift */,
+				2064E7F129F957BB00B261EC /* Assets.xcassets */,
+				2064E7F629F957BB00B261EC /* FunctionInterpolationCalculator.entitlements */,
+				2064E7F329F957BB00B261EC /* Preview Content */,
+			);
+			path = FunctionInterpolationCalculator;
+			sourceTree = "<group>";
+		};
+		2064E7F329F957BB00B261EC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2064E7F429F957BB00B261EC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2064E7FE29F957BB00B261EC /* FunctionInterpolationCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2064E7FF29F957BB00B261EC /* FunctionInterpolationCalculatorTests.swift */,
+			);
+			path = FunctionInterpolationCalculatorTests;
+			sourceTree = "<group>";
+		};
+		2064E80829F957BB00B261EC /* FunctionInterpolationCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2064E80929F957BB00B261EC /* FunctionInterpolationCalculatorUITests.swift */,
+			);
+			path = FunctionInterpolationCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		2064E81829F957FC00B261EC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				206E6C6A29F9837E00C7B3AB /* Input */,
+				2064E7EF29F957B800B261EC /* ContentView.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		2064E81929F9584200B261EC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				206E6C5A29F96AE300C7B3AB /* Models */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2064E81A29F9584F00B261EC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2064E81B29F9587300B261EC /* Linspace.swift */,
+				206E6C5D29F96D6800C7B3AB /* SelfIdentifiable.swift */,
+				206E6C6B29F985BB00C7B3AB /* Sequence+Unique.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		206E6C5A29F96AE300C7B3AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				206E6C5B29F96B0500C7B3AB /* Point.swift */,
+				206E6C6629F97F9E00C7B3AB /* Function.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		206E6C6A29F9837E00C7B3AB /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				206E6C5829F96ACB00C7B3AB /* DataInputView.swift */,
+				206E6C6129F97D9000C7B3AB /* FileDataInputView.swift */,
+				206E6C6829F980B100C7B3AB /* FunctionDataInputView.swift */,
+				206E6C5F29F9746B00C7B3AB /* KeyboardDataInputView.swift */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2064E7E929F957B800B261EC /* FunctionInterpolationCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2064E80F29F957BC00B261EC /* Build configuration list for PBXNativeTarget "FunctionInterpolationCalculator" */;
+			buildPhases = (
+				2064E7E629F957B800B261EC /* Sources */,
+				2064E7E729F957B800B261EC /* Frameworks */,
+				2064E7E829F957B800B261EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunctionInterpolationCalculator;
+			packageProductDependencies = (
+				206E6C6429F97E2E00C7B3AB /* CodableCSV */,
+			);
+			productName = FunctionInterpolationCalculator;
+			productReference = 2064E7EA29F957B800B261EC /* FunctionInterpolationCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2064E7FA29F957BB00B261EC /* FunctionInterpolationCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2064E81229F957BC00B261EC /* Build configuration list for PBXNativeTarget "FunctionInterpolationCalculatorTests" */;
+			buildPhases = (
+				2064E7F729F957BB00B261EC /* Sources */,
+				2064E7F829F957BB00B261EC /* Frameworks */,
+				2064E7F929F957BB00B261EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2064E7FD29F957BB00B261EC /* PBXTargetDependency */,
+			);
+			name = FunctionInterpolationCalculatorTests;
+			productName = FunctionInterpolationCalculatorTests;
+			productReference = 2064E7FB29F957BB00B261EC /* FunctionInterpolationCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2064E80429F957BB00B261EC /* FunctionInterpolationCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2064E81529F957BC00B261EC /* Build configuration list for PBXNativeTarget "FunctionInterpolationCalculatorUITests" */;
+			buildPhases = (
+				2064E80129F957BB00B261EC /* Sources */,
+				2064E80229F957BB00B261EC /* Frameworks */,
+				2064E80329F957BB00B261EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2064E80729F957BB00B261EC /* PBXTargetDependency */,
+			);
+			name = FunctionInterpolationCalculatorUITests;
+			productName = FunctionInterpolationCalculatorUITests;
+			productReference = 2064E80529F957BB00B261EC /* FunctionInterpolationCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2064E7E229F957B800B261EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2064E7E929F957B800B261EC = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					2064E7FA29F957BB00B261EC = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2064E7E929F957B800B261EC;
+					};
+					2064E80429F957BB00B261EC = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2064E7E929F957B800B261EC;
+					};
+				};
+			};
+			buildConfigurationList = 2064E7E529F957B800B261EC /* Build configuration list for PBXProject "FunctionInterpolationCalculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2064E7E129F957B800B261EC;
+			packageReferences = (
+				206E6C6329F97E2E00C7B3AB /* XCRemoteSwiftPackageReference "CodableCSV" */,
+			);
+			productRefGroup = 2064E7EB29F957B800B261EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2064E7E929F957B800B261EC /* FunctionInterpolationCalculator */,
+				2064E7FA29F957BB00B261EC /* FunctionInterpolationCalculatorTests */,
+				2064E80429F957BB00B261EC /* FunctionInterpolationCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2064E7E829F957B800B261EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2064E7F529F957BB00B261EC /* Preview Assets.xcassets in Resources */,
+				2064E7F229F957BB00B261EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2064E7F929F957BB00B261EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2064E80329F957BB00B261EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2064E7E629F957B800B261EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				206E6C6729F97F9E00C7B3AB /* Function.swift in Sources */,
+				2064E7F029F957B800B261EC /* ContentView.swift in Sources */,
+				206E6C5C29F96B0500C7B3AB /* Point.swift in Sources */,
+				2064E7EE29F957B800B261EC /* App.swift in Sources */,
+				2064E81C29F9587300B261EC /* Linspace.swift in Sources */,
+				206E6C6C29F985BB00C7B3AB /* Sequence+Unique.swift in Sources */,
+				206E6C6929F980B100C7B3AB /* FunctionDataInputView.swift in Sources */,
+				206E6C6029F9746B00C7B3AB /* KeyboardDataInputView.swift in Sources */,
+				206E6C5929F96ACB00C7B3AB /* DataInputView.swift in Sources */,
+				206E6C5E29F96D6800C7B3AB /* SelfIdentifiable.swift in Sources */,
+				206E6C6229F97D9000C7B3AB /* FileDataInputView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2064E7F729F957BB00B261EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2064E80029F957BB00B261EC /* FunctionInterpolationCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2064E80129F957BB00B261EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2064E80A29F957BB00B261EC /* FunctionInterpolationCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2064E7FD29F957BB00B261EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2064E7E929F957B800B261EC /* FunctionInterpolationCalculator */;
+			targetProxy = 2064E7FC29F957BB00B261EC /* PBXContainerItemProxy */;
+		};
+		2064E80729F957BB00B261EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2064E7E929F957B800B261EC /* FunctionInterpolationCalculator */;
+			targetProxy = 2064E80629F957BB00B261EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2064E80D29F957BC00B261EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2064E80E29F957BC00B261EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		2064E81029F957BC00B261EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FunctionInterpolationCalculator/FunctionInterpolationCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FunctionInterpolationCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = S7784F33D3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.FunctionInterpolationCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2064E81129F957BC00B261EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FunctionInterpolationCalculator/FunctionInterpolationCalculator.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FunctionInterpolationCalculator/Preview Content\"";
+				DEVELOPMENT_TEAM = S7784F33D3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.FunctionInterpolationCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2064E81329F957BC00B261EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.FunctionInterpolationCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunctionInterpolationCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FunctionInterpolationCalculator";
+			};
+			name = Debug;
+		};
+		2064E81429F957BC00B261EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.FunctionInterpolationCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunctionInterpolationCalculator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FunctionInterpolationCalculator";
+			};
+			name = Release;
+		};
+		2064E81629F957BC00B261EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.FunctionInterpolationCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FunctionInterpolationCalculator;
+			};
+			name = Debug;
+		};
+		2064E81729F957BC00B261EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S7784F33D3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tplaymeow.FunctionInterpolationCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = FunctionInterpolationCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2064E7E529F957B800B261EC /* Build configuration list for PBXProject "FunctionInterpolationCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2064E80D29F957BC00B261EC /* Debug */,
+				2064E80E29F957BC00B261EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2064E80F29F957BC00B261EC /* Build configuration list for PBXNativeTarget "FunctionInterpolationCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2064E81029F957BC00B261EC /* Debug */,
+				2064E81129F957BC00B261EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2064E81229F957BC00B261EC /* Build configuration list for PBXNativeTarget "FunctionInterpolationCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2064E81329F957BC00B261EC /* Debug */,
+				2064E81429F957BC00B261EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2064E81529F957BC00B261EC /* Build configuration list for PBXNativeTarget "FunctionInterpolationCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2064E81629F957BC00B261EC /* Debug */,
+				2064E81729F957BC00B261EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		206E6C6329F97E2E00C7B3AB /* XCRemoteSwiftPackageReference "CodableCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dehesa/CodableCSV";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		206E6C6429F97E2E00C7B3AB /* CodableCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 206E6C6329F97E2E00C7B3AB /* XCRemoteSwiftPackageReference "CodableCSV" */;
+			productName = CodableCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2064E7E229F957B800B261EC /* Project object */;
+}
