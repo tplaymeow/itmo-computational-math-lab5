@@ -24,9 +24,15 @@ struct KeyboardDataInputView: View {
         }
       }
 
-      Button("Done") {
-        self.input = self.temporaryInput.unique()
-        self.dismiss()
+      HStack {
+        Button("Done") {
+          self.input = self.temporaryInput.unique()
+          self.dismiss()
+        }
+
+        Button("Cancel") {
+          self.dismiss()
+        }
       }
     }
     .padding()

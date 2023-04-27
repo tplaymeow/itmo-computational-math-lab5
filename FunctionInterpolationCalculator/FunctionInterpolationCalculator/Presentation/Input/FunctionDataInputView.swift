@@ -30,15 +30,21 @@ struct FunctionDataInputView: View {
         )
       }
 
-      Button("Done") {
-        self.input = linspace(
-          from: min(self.intervalFrom, self.intervalTo),
-          through: max(self.intervalFrom, self.intervalTo),
-          in: self.count
-        ).map {
-          Point(x: $0, y: self.function($0))
+      HStack {
+        Button("Done") {
+          self.input = linspace(
+            from: min(self.intervalFrom, self.intervalTo),
+            through: max(self.intervalFrom, self.intervalTo),
+            in: self.count
+          ).map {
+            Point(x: $0, y: self.function($0))
+          }
+          self.dismiss()
         }
-        self.dismiss()
+
+        Button("Cancel") {
+          self.dismiss()
+        }
       }
     }
     .padding()
