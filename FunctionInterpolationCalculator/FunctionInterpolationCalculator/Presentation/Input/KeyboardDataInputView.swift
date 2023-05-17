@@ -26,7 +26,7 @@ struct KeyboardDataInputView: View {
 
       HStack {
         Button("Done") {
-          self.input = self.temporaryInput.unique()
+          self.completion(self.temporaryInput.unique())
           self.dismiss()
         }
 
@@ -38,9 +38,11 @@ struct KeyboardDataInputView: View {
     .padding()
   }
 
-  init(input: Binding<[Point]>) {
-    self._input = input
+  init(completion: @escaping ([Point]) -> Void) {
+    self.completion = completion
   }
+
+  private let completion: ([Point]) -> Void
 
   @State
   private var x: Double = 0.0
@@ -50,9 +52,6 @@ struct KeyboardDataInputView: View {
 
   @State
   private var temporaryInput: [Point] = []
-
-  @Binding
-  private var input: [Point]
 
   @Environment(\.dismiss)
   private var dismiss

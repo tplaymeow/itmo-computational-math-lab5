@@ -14,6 +14,11 @@
 		2064E80029F957BB00B261EC /* FunctionInterpolationCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2064E7FF29F957BB00B261EC /* FunctionInterpolationCalculatorTests.swift */; };
 		2064E80A29F957BB00B261EC /* FunctionInterpolationCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2064E80929F957BB00B261EC /* FunctionInterpolationCalculatorUITests.swift */; };
 		2064E81C29F9587300B261EC /* Linspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2064E81B29F9587300B261EC /* Linspace.swift */; };
+		206CF9222A007A80008F66FE /* LagrangePolynomial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CF9212A007A80008F66FE /* LagrangePolynomial.swift */; };
+		206CF9292A00B093008F66FE /* Sequence+SlidingWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CF9282A00B093008F66FE /* Sequence+SlidingWindow.swift */; };
+		206CF92B2A00B31C008F66FE /* GaussPolynomial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CF92A2A00B31C008F66FE /* GaussPolynomial.swift */; };
+		206CF92D2A00B5B3008F66FE /* Sequence+AllEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CF92C2A00B5B3008F66FE /* Sequence+AllEqual.swift */; };
+		206CF9312A019CC8008F66FE /* MemoizationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206CF9302A019CC8008F66FE /* MemoizationStorage.swift */; };
 		206E6C5929F96ACB00C7B3AB /* DataInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E6C5829F96ACB00C7B3AB /* DataInputView.swift */; };
 		206E6C5C29F96B0500C7B3AB /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E6C5B29F96B0500C7B3AB /* Point.swift */; };
 		206E6C5E29F96D6800C7B3AB /* SelfIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E6C5D29F96D6800C7B3AB /* SelfIdentifiable.swift */; };
@@ -23,6 +28,15 @@
 		206E6C6729F97F9E00C7B3AB /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E6C6629F97F9E00C7B3AB /* Function.swift */; };
 		206E6C6929F980B100C7B3AB /* FunctionDataInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E6C6829F980B100C7B3AB /* FunctionDataInputView.swift */; };
 		206E6C6C29F985BB00C7B3AB /* Sequence+Unique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206E6C6B29F985BB00C7B3AB /* Sequence+Unique.swift */; };
+		207412B52A02915700D09832 /* Memoization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207412B42A02915700D09832 /* Memoization.swift */; };
+		207412B72A02947900D09832 /* RecursiveMemoization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207412B62A02947900D09832 /* RecursiveMemoization.swift */; };
+		207412B92A02959E00D09832 /* FixedPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207412B82A02959E00D09832 /* FixedPoint.swift */; };
+		20BE34322A117B2500523C64 /* RoundUpDivision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE34312A117B2500523C64 /* RoundUpDivision.swift */; };
+		20BE34342A127A2300523C64 /* Collection+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE34332A127A2300523C64 /* Collection+Safe.swift */; };
+		20BE34362A137AFD00523C64 /* ViewDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE34352A137AFD00523C64 /* ViewDataModels.swift */; };
+		20BE34382A137B2800523C64 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BE34372A137B2800523C64 /* MainView.swift */; };
+		20C8CB192A0C67D2006A9EDF /* Sequence+Scan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C8CB182A0C67D2006A9EDF /* Sequence+Scan.swift */; };
+		20C8CB1B2A0ED713006A9EDF /* DividedDifferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C8CB1A2A0ED713006A9EDF /* DividedDifferences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +68,11 @@
 		2064E80529F957BB00B261EC /* FunctionInterpolationCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunctionInterpolationCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2064E80929F957BB00B261EC /* FunctionInterpolationCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionInterpolationCalculatorUITests.swift; sourceTree = "<group>"; };
 		2064E81B29F9587300B261EC /* Linspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linspace.swift; sourceTree = "<group>"; };
+		206CF9212A007A80008F66FE /* LagrangePolynomial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LagrangePolynomial.swift; sourceTree = "<group>"; };
+		206CF9282A00B093008F66FE /* Sequence+SlidingWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+SlidingWindow.swift"; sourceTree = "<group>"; };
+		206CF92A2A00B31C008F66FE /* GaussPolynomial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaussPolynomial.swift; sourceTree = "<group>"; };
+		206CF92C2A00B5B3008F66FE /* Sequence+AllEqual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+AllEqual.swift"; sourceTree = "<group>"; };
+		206CF9302A019CC8008F66FE /* MemoizationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoizationStorage.swift; sourceTree = "<group>"; };
 		206E6C5829F96ACB00C7B3AB /* DataInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataInputView.swift; sourceTree = "<group>"; };
 		206E6C5B29F96B0500C7B3AB /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
 		206E6C5D29F96D6800C7B3AB /* SelfIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfIdentifiable.swift; sourceTree = "<group>"; };
@@ -62,6 +81,15 @@
 		206E6C6629F97F9E00C7B3AB /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 		206E6C6829F980B100C7B3AB /* FunctionDataInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionDataInputView.swift; sourceTree = "<group>"; };
 		206E6C6B29F985BB00C7B3AB /* Sequence+Unique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Unique.swift"; sourceTree = "<group>"; };
+		207412B42A02915700D09832 /* Memoization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memoization.swift; sourceTree = "<group>"; };
+		207412B62A02947900D09832 /* RecursiveMemoization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecursiveMemoization.swift; sourceTree = "<group>"; };
+		207412B82A02959E00D09832 /* FixedPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedPoint.swift; sourceTree = "<group>"; };
+		20BE34312A117B2500523C64 /* RoundUpDivision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundUpDivision.swift; sourceTree = "<group>"; };
+		20BE34332A127A2300523C64 /* Collection+Safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Safe.swift"; sourceTree = "<group>"; };
+		20BE34352A137AFD00523C64 /* ViewDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDataModels.swift; sourceTree = "<group>"; };
+		20BE34372A137B2800523C64 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		20C8CB182A0C67D2006A9EDF /* Sequence+Scan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence+Scan.swift"; sourceTree = "<group>"; };
+		20C8CB1A2A0ED713006A9EDF /* DividedDifferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividedDifferences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +181,8 @@
 			children = (
 				206E6C6A29F9837E00C7B3AB /* Input */,
 				2064E7EF29F957B800B261EC /* ContentView.swift */,
+				20BE34352A137AFD00523C64 /* ViewDataModels.swift */,
+				20BE34372A137B2800523C64 /* MainView.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -161,6 +191,9 @@
 			isa = PBXGroup;
 			children = (
 				206E6C5A29F96AE300C7B3AB /* Models */,
+				206CF9212A007A80008F66FE /* LagrangePolynomial.swift */,
+				206CF92A2A00B31C008F66FE /* GaussPolynomial.swift */,
+				20C8CB1A2A0ED713006A9EDF /* DividedDifferences.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -168,9 +201,11 @@
 		2064E81A29F9584F00B261EC /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				207412BA2A02A14F00D09832 /* Sequence */,
+				207412B32A02914400D09832 /* Memoization */,
 				2064E81B29F9587300B261EC /* Linspace.swift */,
 				206E6C5D29F96D6800C7B3AB /* SelfIdentifiable.swift */,
-				206E6C6B29F985BB00C7B3AB /* Sequence+Unique.swift */,
+				20BE34312A117B2500523C64 /* RoundUpDivision.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -193,6 +228,29 @@
 				206E6C5F29F9746B00C7B3AB /* KeyboardDataInputView.swift */,
 			);
 			path = Input;
+			sourceTree = "<group>";
+		};
+		207412B32A02914400D09832 /* Memoization */ = {
+			isa = PBXGroup;
+			children = (
+				206CF9302A019CC8008F66FE /* MemoizationStorage.swift */,
+				207412B42A02915700D09832 /* Memoization.swift */,
+				207412B62A02947900D09832 /* RecursiveMemoization.swift */,
+				207412B82A02959E00D09832 /* FixedPoint.swift */,
+			);
+			path = Memoization;
+			sourceTree = "<group>";
+		};
+		207412BA2A02A14F00D09832 /* Sequence */ = {
+			isa = PBXGroup;
+			children = (
+				206E6C6B29F985BB00C7B3AB /* Sequence+Unique.swift */,
+				206CF92C2A00B5B3008F66FE /* Sequence+AllEqual.swift */,
+				206CF9282A00B093008F66FE /* Sequence+SlidingWindow.swift */,
+				20C8CB182A0C67D2006A9EDF /* Sequence+Scan.swift */,
+				20BE34332A127A2300523C64 /* Collection+Safe.swift */,
+			);
+			path = Sequence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,16 +389,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				207412B52A02915700D09832 /* Memoization.swift in Sources */,
+				207412B72A02947900D09832 /* RecursiveMemoization.swift in Sources */,
 				206E6C6729F97F9E00C7B3AB /* Function.swift in Sources */,
+				20BE34342A127A2300523C64 /* Collection+Safe.swift in Sources */,
 				2064E7F029F957B800B261EC /* ContentView.swift in Sources */,
+				20BE34322A117B2500523C64 /* RoundUpDivision.swift in Sources */,
 				206E6C5C29F96B0500C7B3AB /* Point.swift in Sources */,
+				20C8CB1B2A0ED713006A9EDF /* DividedDifferences.swift in Sources */,
+				207412B92A02959E00D09832 /* FixedPoint.swift in Sources */,
 				2064E7EE29F957B800B261EC /* App.swift in Sources */,
+				20C8CB192A0C67D2006A9EDF /* Sequence+Scan.swift in Sources */,
+				206CF9222A007A80008F66FE /* LagrangePolynomial.swift in Sources */,
+				206CF9312A019CC8008F66FE /* MemoizationStorage.swift in Sources */,
+				20BE34382A137B2800523C64 /* MainView.swift in Sources */,
 				2064E81C29F9587300B261EC /* Linspace.swift in Sources */,
 				206E6C6C29F985BB00C7B3AB /* Sequence+Unique.swift in Sources */,
+				206CF9292A00B093008F66FE /* Sequence+SlidingWindow.swift in Sources */,
+				206CF92D2A00B5B3008F66FE /* Sequence+AllEqual.swift in Sources */,
+				206CF92B2A00B31C008F66FE /* GaussPolynomial.swift in Sources */,
 				206E6C6929F980B100C7B3AB /* FunctionDataInputView.swift in Sources */,
 				206E6C6029F9746B00C7B3AB /* KeyboardDataInputView.swift in Sources */,
 				206E6C5929F96ACB00C7B3AB /* DataInputView.swift in Sources */,
 				206E6C5E29F96D6800C7B3AB /* SelfIdentifiable.swift in Sources */,
+				20BE34362A137AFD00523C64 /* ViewDataModels.swift in Sources */,
 				206E6C6229F97D9000C7B3AB /* FileDataInputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +568,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FunctionInterpolationCalculator/FunctionInterpolationCalculator.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -523,6 +596,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = FunctionInterpolationCalculator/FunctionInterpolationCalculator.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;

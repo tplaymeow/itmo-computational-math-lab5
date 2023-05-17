@@ -24,12 +24,11 @@ struct FileDataInputView: View {
     }
   }
 
-  init(input: Binding<[Point]>) {
-    self._input = input
+  init(completion: @escaping ([Point]) -> Void) {
+    self.completion = completion
   }
 
-  @Binding
-  private var input: [Point]
+  private let completion: ([Point]) -> Void
 
   @State
   private var errorMessage: String?
@@ -63,7 +62,7 @@ struct FileDataInputView: View {
       return false
     }
 
-    self.input = points.unique()
+    self.completion(points.unique())
     self.dismiss()
 
     return true

@@ -9,19 +9,19 @@ struct DataInputView: View {
 
   var body: some View {
     TabView(selection: self.$mode) {
-      FileDataInputView(input: self.$input)
+      FileDataInputView(completion: self.completion)
         .tabItem {
           Text("File 📄")
         }
         .tag(Mode.file)
 
-      KeyboardDataInputView(input: self.$input)
+      KeyboardDataInputView(completion: self.completion)
         .tabItem {
           Text("Keyboard ⌨️")
         }
         .tag(Mode.keyboard)
 
-      FunctionDataInputView(input: self.$input)
+      FunctionDataInputView(completion: self.completion)
         .tabItem {
           Text("Function 📈")
         }
@@ -30,13 +30,12 @@ struct DataInputView: View {
     .padding()
   }
 
-  init(input: Binding<[Point]>) {
-    self._input = input
+  init(completion: @escaping ([Point]) -> Void) {
+    self.completion = completion
   }
+
+  private let completion: ([Point]) -> Void
 
   @State
   private var mode: Mode = .keyboard
-
-  @Binding
-  private var input: [Point]
 }

@@ -32,13 +32,13 @@ struct FunctionDataInputView: View {
 
       HStack {
         Button("Done") {
-          self.input = linspace(
+          self.completion(linspace(
             from: min(self.intervalFrom, self.intervalTo),
             through: max(self.intervalFrom, self.intervalTo),
             in: self.count
           ).map {
             Point(x: $0, y: self.function($0))
-          }
+          })
           self.dismiss()
         }
 
@@ -50,9 +50,11 @@ struct FunctionDataInputView: View {
     .padding()
   }
 
-  init(input: Binding<[Point]>) {
-    self._input = input
+  init(completion: @escaping ([Point]) -> Void) {
+    self.completion = completion
   }
+
+  private let completion: ([Point]) -> Void
 
   @State
   private var function: Function = .function1
@@ -65,9 +67,6 @@ struct FunctionDataInputView: View {
 
   @State
   private var count: Int = 5
-
-  @Binding
-  private var input: [Point]
 
   @Environment(\.dismiss)
   private var dismiss
